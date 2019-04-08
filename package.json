@@ -1,0 +1,25 @@
+{
+  "name": "burgerlor",
+  "version": "1.0.0",
+  "description": "application that creates burgers into database and allows you to eat or continue making new burgers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phihainguyen/Burgerlor.git"
+  },
+  "dependencies": {
+    "express-handlebars": "*",
+    "express": "*",
+    "mysql": "*"
+  },
+  "author": "Phi Hai Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phihainguyen/Burgerlor/issues"
+  },
+  "homepage": "https://github.com/phihainguyen/Burgerlor#readme"
+}
