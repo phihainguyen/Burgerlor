@@ -15,15 +15,10 @@ connection.connect(function(err) {
       return;
     }
     console.log("connected as id " + connection.threadId);
-    afterconnection()
+  
   });
-  function afterconnection(){
-     connection.query("SELECT * FROM burgers", function(err, res){
-      if(err) throw err;
-        console.table(res);
-        connection.end();
 
-  })
-  }
+
+
   
   module.exports = connection;
