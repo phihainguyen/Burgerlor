@@ -1,0 +1,75 @@
+body{
+    background: yellow;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+.col {
+width: 50%;
+  margin: auto;
+  margin-top: 0;
+  margin-left: 120px;
+
+}
+h2 {
+    margin-left: 70px; 
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.delete-burger{
+    border: 2px solid red;
+    color: red;
+    border-radius: 5px;
+    padding: 10px;
+}
+.delete-burger:hover{
+    background: yellow;
+}
+
+.change-ate{
+    border: 2px solid rgb(108, 29, 29);
+    color: rgb(108, 29, 29);
+    border-radius: 5px;
+    padding: 10px;
+}
+.change-ate:hover{
+    background: rgb(3, 143, 3);
+}
+#submit{
+    border: 2px solid rgb(164, 46, 46);
+    color: rgb(108, 29, 29);
+    border-radius: 5px;
+    padding: 10px;
+}
+#submit:hover{
+    background: rgb(108, 29, 29);
+    color: rgb(3, 143, 3);
+    border: 2px solid  rgb(3, 143, 3);
+}
+li {
+    list-style-type: none;
+}
+#burgerIcon{
+    position: absolute;
+  
+
+}
+#addTitle {
+    margin:auto;
+}
+#ca {
+    border:2px dotted red;
+    border-radius: 10px;
+    padding: 10px;
+}
+#text {
+    width: 50px;
+}

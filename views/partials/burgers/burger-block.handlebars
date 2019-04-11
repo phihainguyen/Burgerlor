@@ -1,9 +1,9 @@
-<li>
-	{{name}}
+<p>
+	<img id="burgerIcon" src="https://www.shareicon.net/data/2015/08/15/85628_fast-food_512x512.png" alt="Hamburger icon" width="30px" height="35px">{{name}}
 
 	<button class="change-ate" data-id="{{id}}" data-newate="{{ate}}">
-		{{#if ate}}Devour!{{else}}Make Another!{{/if}}
+		{{#if ate}}Devour!{{else}}Make Another! <img src="https://image.flaticon.com/icons/png/512/129/129298.png" alt="spatula icon" width="30px" height="35px">{{/if}}
 	</button>
 
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
-</li>
+	<button class="delete-burger" data-id="{{this.id}}"><img src="https://image.flaticon.com/icons/svg/65/65307.svg" alt="trash can icon" width="30px" height="35px"></button>
+</p>
