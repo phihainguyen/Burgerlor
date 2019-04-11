@@ -5,6 +5,7 @@ body{
     box-sizing: border-box;
     background-image: url(https://images5.alphacoders.com/808/thumb-1920-808166.jpg);
     background-size: cover;
+
 }
 #wrapper {
    
@@ -15,15 +16,18 @@ body{
 width: 30%;
 height: 100%;
   margin: auto;
-  margin-top: 0;
+  margin-top: 10px;
   margin-left: 120px;
-  background: black;
-  opacity: 0.7;
+  background: rgba(20, 19, 19, 0.589);
+  
   color: aliceblue;
+  border: 20px solid rgba(255, 255, 255, 0.664);
 
 }
 h2 {
-    margin-left: 70px; 
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+
 }
 #footer {
     display: flex;
@@ -34,21 +38,31 @@ h2 {
 .delete-burger{
     border: 2px solid red;
     color: red;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    background: rgba(228, 222, 222, 0.61);
 }
 .delete-burger:hover{
-    background: yellow;
+    background: rgba(0, 0, 0, 0.185);
+
 }
 
 .change-ate{
-    border: 2px solid rgb(108, 29, 29);
+    border: 2px solid rgb(34, 151, 63);
     color: rgb(108, 29, 29);
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 4px;
+    background: rgba(228, 222, 222, 0.61);
+    font-family: 'Indie Flower', cursive;
+    color: rgb(250, 250, 250);
+font-size: 15px;
+
 }
 .change-ate:hover{
-    background: rgb(3, 143, 3);
+    background: rgba(0, 0, 0, 0.185);
+    font-family: 'Indie Flower', cursive;
+    color: whitesmoke;
+
 }
 #submit{
     border: 2px solid rgb(164, 46, 46);
@@ -61,22 +75,42 @@ h2 {
     color: rgb(3, 143, 3);
     border: 2px solid  rgb(3, 143, 3);
 }
-li {
-    list-style-type: none;
-}
-#burgerIcon{
-    position: absolute;
-  
 
-}
+
 #addTitle {
     margin:auto;
+    color: rgba(211, 20, 20, 0.856);
+    font-size: 40px;
+    text-shadow: 2px 2px #ffee00be;
 }
 #ca {
-    border:2px dotted red;
+    border:2px dotted rgb(155, 23, 23);
     border-radius: 10px;
     padding: 10px;
 }
 #text {
     width: 50px;
+}
+h1{
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    margin-left: 10px;
+
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+}
+p {
+    font-family: 'Rock Salt', cursive;
+}
+#link{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.6;
+    padding: 20px;
+}
+#link:hover {
+opacity: 0.8;
 }
